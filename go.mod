@@ -1,4 +1,4 @@
-module github.com/Loyalsoldier/cn-blocked-domain
+module github.com/xaver985/cn-blocked-domain
 
 go 1.16
 

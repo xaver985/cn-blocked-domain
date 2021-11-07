@@ -4,7 +4,7 @@ import (
 	"log"
 	"strings"
 
-	"github.com/Loyalsoldier/cn-blocked-domain/utils"
+	"github.com/xaver985/cn-blocked-domain/utils"
 )
 
 func buildTreeAndUnique(sortedDomainList []string) []string {
