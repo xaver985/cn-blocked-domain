@@ -192,3 +192,8 @@ if __name__ == '__main__':
 
         # to lower
         lowerValidDomainResultList = [item.lower() for item in validDomainResultList]
+        
+        # write sorted file
+        write_file('\n'.join(sorted(lowerValidDomainResultList)))
+    except:
+        traceback.print_exc(file=sys.stdout)
