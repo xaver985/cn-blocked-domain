@@ -23,6 +23,8 @@ jobs:
 
       - name: Get project dependencies & run
         run: |
+          python -m pip install --upgrade pip
+          pip install BeautifulSoup4
           python greatfire-fetcher.py
 
       - name: Release and upload assets
