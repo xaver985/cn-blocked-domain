@@ -16,10 +16,10 @@ crawl:
       is_crawl: true
       from: 0
       to: -1
-    - name: domains
-      type_url: domains
+    - name: urls
+      type_url: urls
       referer: https://en.greatfire.org
-      is_crawl: false
+      is_crawl: true
       from: 0
       to: -1
     - name: ipAddresses
