@@ -13,13 +13,13 @@ crawl:
     - name: blocked
       type_url: blocked
       referer: https://en.greatfire.org
-      is_crawl: true
+      is_crawl: false
       from: 0
       to: -1
     - name: urls
       type_url: urls
       referer: https://en.greatfire.org
-      is_crawl: false
+      is_crawl: true
       from: 0
       to: -1
     - name: ipAddresses
