@@ -42,7 +42,7 @@ filter:
   regexp:
     domain: ^\/(https?\/)?([a-zA-Z0-9][-_a-zA-Z0-9]{0,62}(\.[a-zA-Z0-9][-_a-zA-Z0-9]{0,62})+)$
     ip: ^(([0-9]{1,3}\.){3}[0-9]{1,3})
-  percent: 0 # set the minimal "blocked" percent to filter content
+  percent: 20 # set the minimal "blocked" percent to filter content
 customize:
   cpu_cores: 0 # set the number of CPU cores to run the project. 0 means set by the program automatically
   max_capacity: 50000 # set the capacity of the channel to deliver results temporarily
