@@ -13,13 +13,13 @@ crawl:
     - name: blocked
       type_url: blocked
       referer: https://en.greatfire.org
-      is_crawl: false
+      is_crawl: true
       from: 0
       to: -1
     - name: domains
       type_url: domains
       referer: https://en.greatfire.org
-      is_crawl: true
+      is_crawl: false
       from: 0
       to: -1
     - name: ipAddresses
@@ -42,7 +42,7 @@ filter:
   regexp:
     domain: ^\/(https?\/)?([a-zA-Z0-9][-_a-zA-Z0-9]{0,62}(\.[a-zA-Z0-9][-_a-zA-Z0-9]{0,62})+)$
     ip: ^(([0-9]{1,3}\.){3}[0-9]{1,3})
-  percent: 10 # set the minimal "blocked" percent to filter content
+  percent: 50 # set the minimal "blocked" percent to filter content
 customize:
   cpu_cores: 0 # set the number of CPU cores to run the project. 0 means set by the program automatically
   max_capacity: 50000 # set the capacity of the channel to deliver results temporarily
