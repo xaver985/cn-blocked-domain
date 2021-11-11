@@ -25,7 +25,7 @@ crawl:
     - name: ipAddresses
       type_url: ip-addresses
       referer: https://en.greatfire.org
-      is_crawl: true
+      is_crawl: false
       from: 0
       to: -1
   init_element:
